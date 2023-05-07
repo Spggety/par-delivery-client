@@ -1,0 +1,129 @@
+.contacts {
+    align-items: start;
+    display: flex;
+    background-color:#ffffff;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    min-height: calc(100vh - 88px);
+}
+.hr{
+    opacity: 0.2;
+    width: 100%;
+    border-bottom: 1px solid #979797;
+    position: fixed;
+    top: 88px;
+    z-index: 10000;
+}
+.hr_down{
+    margin-top: 20px;
+    opacity: 0.2;
+    width: 100%;
+    border-bottom: 1px solid #979797;
+}
+.contactsContain{
+    width: 340px;
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contactsHeader{
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    white-space: nowrap;
+    margin-top: -2px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.ProdPanel{
+    display: flex;
+    margin-top: 56px;
+}
+
+.formContact{
+    display: flex;
+    align-items:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.iconContact{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    flex-direction: row;
+    font-size: 25px;
+    color:#2459FF;
+    background-color:#E1E6F7;
+    border-radius: 100px;
+
+} 
+
+.resurcesLink{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    width: 255px;
+    height: 48px;
+    color: white;
+    background-color:#2459FF;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.resurcesLinkIco{
+    text-decoration: none;
+}
+.textareaContacts{
+    margin-top: 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    color: #979797;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 13px 12px;
+    gap: 10px;
+    width: 321px;
+    height: 100px;
+    resize: none;
+    border: 1px solid #979797;
+    border-radius: 20px;
+    outline: none;
+}
+
+.addFeedback{
+    margin-left: 185px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    border-radius: 73px;
+    border: none;
+    background: #2459ff;
+    color: white;
+    width: 136px;
+    height: 48px;
+    cursor: pointer;
+  }
+  
+  .addFeedback:active {
+    color: black;
+    border: 1px gray solid;
+    background-color: #ffffff;
+  }
+
+  .tester{
+    height:100%;
+    width: 100%;
+    margin-top: 70px;
+  }

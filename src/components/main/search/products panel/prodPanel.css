@@ -1,0 +1,12 @@
+
+  .tabs__pane{
+    padding: 1rem 0;
+    margin-bottom: 100px;
+    display: inline-grid;
+    gap: 15px;
+    row-gap: 35px;
+    grid-template-columns: repeat(2, 170px)
+}
+.showTabs{
+  min-height: 140vw;
+}

@@ -1,0 +1,34 @@
+.loadingScreen {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #2459FF;
+    background-size: 127%;
+    background-position-x: -60px;
+    background-position-y: -135px;
+    background-image: url('../../../public/img/loadingScreen/letteringBack.png');
+    flex-flow: column;
+    justify-content: space-around;
+    align-items:center;
+}
+img.cat{
+    width: 375px;
+    margin-top: 90px;
+}
+img.label{
+
+    width: 250px;
+    margin-top: -20px;
+}
+
+.loadContain{
+    position: fixed;
+    top: 0;
+    left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.closeWin{
+    display: none;
+}

@@ -1,0 +1,327 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?hvxb6s');
+  src:  url('fonts/icons.eot?hvxb6s#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?hvxb6s') format('truetype'),
+    url('fonts/icons.woff?hvxb6s') format('woff'),
+    url('fonts/icons.svg?hvxb6s#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic_User:before {
+  content: "\e900";
+}
+.ic_User1:before {
+  content: "\e901";
+}
+.ic_Activity:before {
+  content: "\e902";
+}
+.ic_Add-User:before {
+  content: "\e903";
+}
+.ic_Arrow---Down-2:before {
+  content: "\e904";
+}
+.ic_Arrow---Down-3:before {
+  content: "\e905";
+}
+.ic_Arrow---Down-Circle:before {
+  content: "\e906";
+}
+.ic_Arrow---Down-Square:before {
+  content: "\e907";
+}
+.ic_Arrow---Down:before {
+  content: "\e908";
+}
+.ic_Arrow---Left-2:before {
+  content: "\e909";
+}
+.ic_Arrow---Left-3:before {
+  content: "\e90a";
+}
+.ic_Arrow---Left-Circle:before {
+  content: "\e90b";
+}
+.ic_Arrow---Left-Square:before {
+  content: "\e90c";
+}
+.ic_Arrow---Left:before {
+  content: "\e90d";
+}
+.ic_Arrow---Right-2:before {
+  content: "\e90e";
+}
+.ic_Arrow---Right-3:before {
+  content: "\e90f";
+}
+.ic_Arrow---Right-Circle:before {
+  content: "\e910";
+}
+.ic_Arrow---Right-Square:before {
+  content: "\e911";
+}
+.ic_Arrow---Right:before {
+  content: "\e912";
+}
+.ic_Arrow---Up-2:before {
+  content: "\e913";
+}
+.ic_Arrow---Up-3:before {
+  content: "\e914";
+}
+.ic_Arrow---Up-Circle:before {
+  content: "\e915";
+}
+.ic_Arrow---Up-Square:before {
+  content: "\e916";
+}
+.ic_Arrow---Up:before {
+  content: "\e917";
+}
+.ic_Bag-3:before {
+  content: "\e918";
+}
+.ic_Bag:before {
+  content: "\e919";
+}
+.ic_Bookmark:before {
+  content: "\e91a";
+}
+.ic_Buy:before {
+  content: "\e91b";
+}
+.ic_Calendar:before {
+  content: "\e91c";
+}
+.ic_Call-Missed:before {
+  content: "\e91d";
+}
+.ic_Call-Silent:before {
+  content: "\e91e";
+}
+.ic_Call:before {
+  content: "\e91f";
+}
+.ic_Calling:before {
+  content: "\e920";
+}
+.ic_Camera:before {
+  content: "\e921";
+}
+.ic_Category:before {
+  content: "\e922";
+}
+.ic_Chart:before {
+  content: "\e923";
+}
+.ic_Chat:before {
+  content: "\e924";
+}
+.ic_Close-Square:before {
+  content: "\e925";
+}
+.ic_Danger-Circle:before {
+  content: "\e926";
+}
+.ic_Danger-Triangle:before {
+  content: "\e927";
+}
+.ic_Delete:before {
+  content: "\e928";
+}
+.ic_Discount:before {
+  content: "\e929";
+}
+.ic_Discovery:before {
+  content: "\e92a";
+}
+.ic_Document:before {
+  content: "\e92b";
+}
+.ic_Download:before {
+  content: "\e92c";
+}
+.ic_Edit-Square:before {
+  content: "\e92d";
+}
+.ic_Edit:before {
+  content: "\e92e";
+}
+.ic_Filter-3:before {
+  content: "\e92f";
+}
+.ic_Filter:before {
+  content: "\e930";
+}
+.ic_Folder:before {
+  content: "\e931";
+}
+.ic_Game:before {
+  content: "\e932";
+}
+.ic_Graph:before {
+  content: "\e933";
+}
+.ic_Heart:before {
+  content: "\e934";
+}
+.ic_Hide:before {
+  content: "\e935";
+}
+.ic_Home:before {
+  content: "\e936";
+}
+.ic_Image-3:before {
+  content: "\e937";
+}
+.ic_Image:before {
+  content: "\e938";
+}
+.ic_Info-Square:before {
+  content: "\e939";
+}
+.ic_Location:before {
+  content: "\e93a";
+}
+.ic_Lock:before {
+  content: "\e93b";
+}
+.ic_Login:before {
+  content: "\e93c";
+}
+.ic_Logout:before {
+  content: "\e93d";
+}
+.ic_Message:before {
+  content: "\e93e";
+}
+.ic_More-Circle:before {
+  content: "\e93f";
+}
+.ic_More-Square:before {
+  content: "\e940";
+}
+.ic_Notification:before {
+  content: "\e941";
+}
+.ic_Paper-Download:before {
+  content: "\e942";
+}
+.ic_Paper-Fail:before {
+  content: "\e943";
+}
+.ic_Paper-Negative:before {
+  content: "\e944";
+}
+.ic_Paper-Plus:before {
+  content: "\e945";
+}
+.ic_Paper-Upload:before {
+  content: "\e946";
+}
+.ic_Paper:before {
+  content: "\e947";
+}
+.ic_Password:before {
+  content: "\e948";
+}
+.ic_Play:before {
+  content: "\e949";
+}
+.ic_Plus:before {
+  content: "\e94a";
+}
+.ic_Profile:before {
+  content: "\e94b";
+}
+.ic_Scan:before {
+  content: "\e94c";
+}
+.ic_Search:before {
+  content: "\e94d";
+}
+.ic_Send:before {
+  content: "\e94e";
+}
+.ic_Setting:before {
+  content: "\e94f";
+}
+.ic_Shield-Done:before {
+  content: "\e950";
+}
+.ic_Shield-Fail:before {
+  content: "\e951";
+}
+.ic_Show:before {
+  content: "\e952";
+}
+.ic_Star:before {
+  content: "\e953";
+}
+.ic_Swap:before {
+  content: "\e954";
+}
+.ic_Tick-Square:before {
+  content: "\e955";
+}
+.ic_Ticket-Star:before {
+  content: "\e956";
+}
+.ic_Ticket:before {
+  content: "\e957";
+}
+.ic_Time-Circle:before {
+  content: "\e958";
+}
+.ic_Time-Square:before {
+  content: "\e959";
+}
+.ic_Unlock:before {
+  content: "\e95a";
+}
+.ic_Upload:before {
+  content: "\e95b";
+}
+.ic_Video:before {
+  content: "\e95c";
+}
+.ic_Voice-3:before {
+  content: "\e95d";
+}
+.ic_Voice:before {
+  content: "\e95e";
+}
+.ic_Volume-Down:before {
+  content: "\e95f";
+}
+.ic_Volume-Off:before {
+  content: "\e960";
+}
+.ic_Volume-Up:before {
+  content: "\e961";
+}
+.ic_Wallet:before {
+  content: "\e962";
+}
+.ic_Work:before {
+  content: "\e963";
+}

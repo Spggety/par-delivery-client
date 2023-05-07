@@ -1,0 +1,87 @@
+* {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  background-color: #ffffff;
+
+  text-align: center;
+}
+@media (max-width: 392px) and (height: 496px) {
+  /*Адаптив для пк версии */
+  .App {
+    border: 10px solid #2459ff;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    zoom: calc(100 / 165);
+  }
+  body {
+    background-color: #2459ff;
+    background-image: url("/public/img/loadingScreen/letteringBack.png");
+  }
+  .userPageNavForm .scroll {
+    height: 120vh !important;
+  }
+  .contacts {
+    min-height: calc(165vh - 86px) !important;
+  }
+  .basketFreeContain {
+    background-color: #ffffff !important;
+    min-width: calc(100vw) !important;
+    min-height: calc(165vh) !important;
+  }
+  .basketContain {
+    background-color: #ffffff !important;
+    min-height: calc(165vh) !important;
+  }
+  .basketDeliveryConfirm {
+    min-height: calc(70vh) !important;
+  }
+  .navGlobal {
+    max-width: 70vw;
+  }
+  .arrowToTop {
+    right: 10vw !important;
+  }
+  .ic_Arrow---Up {
+    display: flex;
+    justify-content: center;
+    margin-right: 1px;
+  }
+  .ic_Arrow---Left-2.basketArrowLeft {
+    font-size: 14px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 376px) and (max-height: 668px) {/*Адаптив для iphone se */
+  .App {
+    zoom: 0.95;
+  }
+}
+
+@media (width: 320px) and (height: 480px) {
+  /*Адаптив для iphone 4 */
+  .App {
+    zoom: 0.7;
+  }
+  .tabs__nav {
+    top: 85px!important;
+  }
+}

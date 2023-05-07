@@ -1,0 +1,112 @@
+/* Иконки */
+.icoTab {
+  display: flex;
+  height: 24px;
+  background: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  width: 24px;
+  align-self: center;
+  border: 1px solid #979797;
+  border-radius: 100%;
+  margin-left: -1px;
+}
+.icoTab#vape {
+  background-image: url("../../../../../public/img/main/tabIcon/Vape.png");
+}
+.icoTab#hookah {
+  background-image: url("../../../../../public/img/main/tabIcon/Hookah.png");
+}
+.icoTab#snus {
+  background-image: url("../../../../../public/img/main/tabIcon/Snus.png");
+}
+
+/* Главные кнопки */
+.tabs__btn {
+  color: #000;
+  cursor: pointer;
+  min-width: 106px;
+  height: 37px;
+  border: 0.5px solid #979797;
+  border-radius: 23.5px;
+  justify-content: start;
+  gap: 4px;
+  margin-left: 4px;
+  padding-left: 8px;
+  align-items:center;
+  display: flex;
+  background-color: white;
+}
+
+
+.tabs__btn.active {
+  color: white;
+  background-color: #2459FF;
+  cursor: default;
+}
+
+
+/* главный контейнер*/
+.tabs__nav {
+  z-index: 100;
+  background-color: white;
+  display: flex;
+}
+.tabs__nav .global {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 10%;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.ulCategory{
+  display: flex;
+  position:absolute;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  overflow-y: hidden;
+  background-color: white;
+  width: 100%;
+  
+}
+.ulCategory::-webkit-scrollbar {
+  display: none;
+}
+.ulCategory .ulContain{
+  width: 375px;
+  display: flex;
+}
+
+.liCategory {
+  margin-left: 20px;
+  align-items: center;
+  display: flex;
+  height: 52px;
+  white-space: nowrap;
+  background-color: white;
+  outline: none;
+  border: none;
+  color: #67696D;
+  cursor: pointer;
+}
+.liCategory:last-child{
+  padding-right: 20px;
+}
+.liCategory.active{
+    cursor: default;
+    color: #2459FF;
+}
+.tabs__nav {
+  margin: auto;
+  margin-top: 24px;
+  position: sticky;
+  top: 84px;
+}
+
+.line{
+    border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+}

@@ -1,0 +1,85 @@
+.navGlobal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 17px 10px 12px;
+  min-width: 330px;
+  width: 80%;
+  height: 37px;
+  background: #ffffff;
+  box-shadow: 0px 1px 12px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1000px;
+  position:fixed;
+  bottom: 20px;
+  align-self: center;
+  justify-content: space-around;
+  z-index: 999;
+}
+
+
+.buttonNav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 4px;
+  width: 82px;
+  height: 37px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 1000px;
+  
+}
+.buttonNav.active {
+  cursor: default;
+  color: #ffffff;
+  background: #2459ff;
+  box-shadow: 0px 1px 12px 4px rgba(0, 0, 0, 0.1);
+}
+@media(hover: hover){
+.buttonNav:hover:not(.buttonNav.active){
+    background-color: #8ca9ff;
+    color:#ffffff;
+}}
+
+
+.icoSize {
+    font-size: 21px;
+}
+
+.arrowToTop{
+  outline: none;
+  border:none;
+  background: #EE6D48;
+  box-shadow: 0px 1px 12px 4px rgba(0, 0, 0, 0.1);
+  Width: 50px;
+  Height: 50px;
+  border-radius: 100px;
+  z-index: 101;
+  position:fixed;
+  bottom:130px;
+  right: 3%;
+  
+}
+.arrowToTop.active{
+  display:block;
+  
+}
+@media(hover: hover){
+  .arrowToTop:hover:not(.arrowToTop.active){
+    box-shadow: 0px 2px 24px 8px rgba(0, 0, 0, 0.2);
+  }}
+  
+.arrowToTop .ic_Arrow---Up{
+  color:white;
+  font-size: 16px;
+}
+
+  .arrowToTop:active {
+    transform: translateY(4px);
+    box-shadow: 0px 2px 24px 8px rgba(0, 0, 0, 0.2);
+  }

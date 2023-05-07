@@ -1,0 +1,44 @@
+.popular {
+    align-items: start;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+.hr{
+    opacity: 0.2;
+    width: 100%;
+    border-bottom: 1px solid #979797;
+    position: fixed;
+    top: 88px;
+    z-index: 10000;
+}
+.popularContain{
+    align-self: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.popularHeader{
+    display: flex;
+    position: fixed;
+    background-color:rgba(255, 255, 255);
+    z-index: 1;
+    margin-top:-2px;
+    padding-right: 235px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    border-bottom:1px solid rgba(151, 151, 151, 0.2);
+}
+.ProdPanel{
+    display: flex;
+    margin-top: 56px;
+}

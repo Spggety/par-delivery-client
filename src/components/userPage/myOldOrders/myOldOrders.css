@@ -1,0 +1,154 @@
+.MyOldOrdersNavPanel {
+  display: flex;
+  width: calc(100vw - 20%);
+  flex-flow: row nowrap;
+  overflow-y: hidden;
+  background-color: white;
+  height: 52px;
+  
+  position: sticky;
+  top:94px;
+}
+.MyOldOrdersNavPanelElem {
+  align-self: center;
+  padding: 0 10px;
+  height: 36px;
+  padding-top: 16px;
+  display: flex;
+  background-color: white;
+  color: #67696d;
+  cursor: pointer;
+}
+
+.MyOldOrdersNavPanelElem.active {
+  cursor: default;
+  color: #2459ff;
+}
+
+.myOldOrdersNavFormCard {
+  margin-bottom: 28px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px;
+  align-self: center;
+  min-height: 200px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+
+.myOldOrdersNavFormCard .head {
+  display: flex;
+  height: 14px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.myOldOrdersNavFormCard .head .number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  height: min-content;
+  margin-right: auto;
+  margin: 0;
+  margin-right: auto;
+}
+
+.myOldOrdersNavFormCard .head .date {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  align-self: center;
+  margin-left: auto;
+  height: min-content;
+
+  color: #8f92a1;
+}
+
+.myOldOrdersNavFormCard .foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.myOldOrdersNavFormCard .foot .allSum {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+.myOldOrdersNavFormCard .foot .reOrder {
+  display: flex;
+  width: 133.28px;
+  height: 46px;
+  background: #2459ff;
+  border-radius: 1000px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.myOldOrdersNavFormElementCard {
+  margin-top: 12px;
+  width: 278px;
+  height: 101px;
+  border: 1px solid #c2d0fb;
+  border-radius: 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.myOldOrdersNavFormElementCard .png {
+  margin-left: 10px;
+  background-color:#E1E6F7;
+  object-fit: cover;
+  display: flex;
+  border-radius: 16px;
+  width: 62px;
+  height: 80px;
+}
+.myOldOrdersNavFormElementCard .infoItem {
+  margin: 0 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.myOldOrdersNavFormElementCard .infoItem .infoItemText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.myOldOrdersNavFormElementCard .infoItem .prices {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.priceAndMultiply .price {
+  width: 40px;
+  height: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #67696d;
+}
+
+.priceAndMultiply .multiply {
+  margin-left: 12px;
+  width: 20px;
+  height: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #979797;
+}
+.sumPice {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}

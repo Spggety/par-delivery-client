@@ -1,0 +1,170 @@
+.bodyNoScroll::-webkit-scrollbar {
+  display: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  display: flex;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  z-index: 102;
+}
+.headerBurgerContain {
+  z-index: 1000;
+  display: fixed;
+  width: 100%;
+  height: 200vh;
+  position: sticky;
+  flex-direction: column;
+  background-color: #2459ff;
+  color: white;
+}
+
+header {
+  position:sticky;
+  top: 0px;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 24px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 24px;
+  z-index: 10;
+}
+
+.burgerButtonSwap {
+  height: 36px;
+  padding: 0px 0px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  cursor: pointer;
+}
+
+header i {
+  font-size: 20px;
+}
+.ic_Category {
+  color: black;
+  border: 7px #ffffff solid;
+  border-radius: 10px;
+}
+
+.ic_BagHeader {
+  z-index: 101;
+  color: white;
+  background-color: #2459ff;
+  border: 7px #2459ff solid;
+  border-radius: 10px;
+}
+
+.ic_Close-Square {
+  color: #2459ff;
+  background-color: white;
+  border: 7px white solid;
+  border-radius: 10px;
+}
+
+.burger {
+  display: flex;
+  border-bottom: 2px solid rgb(227, 232, 248, 0.2);
+  background-color: #2459ff;
+}
+.burger > a[href='/basket'] > span {
+  pointer-events: none;
+  background-color:#2459ff;
+  box-shadow: none;
+  color:#2459ff;
+}
+.notBurgerLogo {
+  display: none;
+}
+.burgerCard {
+  display: block;
+  font-size: 0;
+  width: 20px;
+}
+.burgerInfoComponent {
+  margin-top: 24px;
+  display: flex;
+  justify-content: start;
+}
+.burgerInfoComponentText sub {
+  margin-bottom: 16px;
+}
+.burgerInfoComponent i {
+  font-size: 20px;
+  margin: 0 10%;
+}
+.burgerInfoComponentText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  border-bottom: 1px solid #e3e8f833;
+  width: 60%;
+}
+.burgerInfoComponentText h3,
+p,
+sub {
+  display: flex;
+  text-align: left;
+  align-items: start;
+  justify-content: start;
+  margin: 0;
+}
+
+.headersText {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+.paragraphText {
+  margin-top: 6px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.subText {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+}
+.ic_Swap {
+  height: 20px;
+  transform-origin: center;
+  transform: rotate(90deg);
+}
+
+.burgerInfoContainNONE {
+  display: none;
+}
+
+.itemNumber {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  top:14px;
+  right: calc(10% - 10px);
+  width: 22px;
+  height: 22px;
+  background: #ee6d48;
+  box-shadow: 0px 5.71024px 11.4205px rgba(8, 35, 48, 0.12);
+  color: #ffffff;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  z-index: 1;
+  
+}

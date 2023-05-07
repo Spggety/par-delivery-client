@@ -1,0 +1,7 @@
+.banner{
+    display: flex;
+    width: 356px;
+    height: 169px;
+    border-radius: 20px;
+    margin: auto;
+}
